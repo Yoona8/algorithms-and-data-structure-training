@@ -1,0 +1,17 @@
+{
+  "name": "algorithms-and-data-structure-training",
+  "version": "1.0.0",
+  "author": "yoona8",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "eslint": "^9.31.0"
+  }
+}
