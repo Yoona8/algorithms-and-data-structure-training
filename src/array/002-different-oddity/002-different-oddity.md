@@ -38,7 +38,7 @@ const input = '100 5 200';
 const result = findOutlier(input);
 ```
 
-### 5 - List Containing Negative Numbers
+### 6 - List Containing Negative Numbers
 ```JavaScript
 const input = '-2 -4 -5 -6 -8';
 // => 2
@@ -57,3 +57,6 @@ The core of the algorithm is to first determine whether the list of numbers is p
 5. The index of the found parity corresponds to the position of the outlier number in the original array. Return the index.
 
 ## Time and Space Complexity Analysis
+
+- **Time Complexity: O(n)** - loop once to parse the numbers and determine their parities, and a second loop to find the outlier.
+- **Space Complexity: O(n)** - create new arrays to store the numbers and their corresponding parities.
