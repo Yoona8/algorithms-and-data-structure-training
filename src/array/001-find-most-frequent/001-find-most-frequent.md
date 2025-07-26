@@ -2,6 +2,7 @@
 How often does the most frequent element appear in the union of two sorted asc arrays? Elements can be repeated.
 
 ## Examples
+
 ### 1 - Both Arrays are Not Empty
 ```JavaScript
 const arrayA = [1, 3, 3, 5, 8, 8];
@@ -59,6 +60,7 @@ const result = findMostFrequent(arrayA, arrayB);
 ```
 
 ## The Algorithm
+
 Let's use a two-pointer approach, which will allow us to find the solution in a single loop without creating a combined array (saves memory).
 1. Create two pointers, one for each array, both starting at index 0.
 2. Initialize a `maxCount = 0` to store the highest frequency.
@@ -73,5 +75,6 @@ Let's use a two-pointer approach, which will allow us to find the solution in a 
 9. Return the `maxCount`.
 
 ## Time and Space Complexity Analysis
+
 - **Time Complexity: O(n)** - the algorithm processes each element from both arrays exactly once. The two pointers, always move forward. The total number of steps is the sum of the lengths of the two arrays. This is linear time complexity, which is highly efficient.
 - **Space Complexity: O(1)** - the key advantage of the algorithm is that the amount of memory used does not increase.
